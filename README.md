@@ -1,0 +1,2 @@
+![alt text](./images/image.png)
+The output is like the image above because I instantiated executor and spawner first. Then I spwan the asynchronous task that will not execute immediately, but wait for the executor to execute it. Then I print "DhafinFadhlan's Computer: hey hey!" synchronously before the executor executes the asynchronous task. Therefore printing that output before other outputs
